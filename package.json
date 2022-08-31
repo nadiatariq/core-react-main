@@ -1,0 +1,77 @@
+{
+  "name": "core-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "7.14.6",
+    "@craco/craco": "^6.2.0",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "4.0.0-alpha.58",
+    "autosuggest-highlight": "3.1.1",
+    "chart.js": "^3.3.2",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.22.1",
+    "downshift": "6.1.3",
+    "eslint-plugin-import": "^2.23.4",
+    "jss-rtl": "0.3.0",
+    "leaflet": "1.7.1",
+    "moment": "2.29.1",
+    "react": "^17.0.2",
+    "react-autosuggest": "10.1.0",
+    "react-awesome-button": "^6.5.1",
+    "react-big-calendar": "0.33.5",
+    "react-chartjs-2": "3.0.3",
+    "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
+    "react-jss": "^10.6.0",
+    "react-leaflet": "3.2.0",
+    "react-number-format": "4.6.3",
+    "react-quill": "^1.3.5",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "4.3.1",
+    "react-swipeable-views": "^0.14.0",
+    "react-text-mask": "5.4.3",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "connected-react-router": "^6.9.1",
+    "formik": "^2.2.9",
+    "material-ui-password-field": "^2.1.2",
+    "postcss": "^7.0.36",
+    "prop-types": "^15.7.2",
+    "redux-promise-middleware": "^6.1.2",
+    "reselect": "^4.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+  }
+}
